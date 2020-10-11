@@ -1,14 +1,11 @@
-body {
-    color: green;
-}
-
-.container {
+.container2 {
     position: relative;
     height: 100%;
-    width: 70%;
+    width: 44%;
+    left: 27%;
     display: flex;
     flex-direction: row;
-    border: 5px solid black;
+    border: 0px;
     background-color: #f8f8f8;
 }
 
@@ -24,33 +21,65 @@ body {
 
 .card {
     left: 24%;
-    height: ;
-    width: ;
     position: relative;
     display: flex;
     flex-direction: row;
 }
 
 .picture {
-    height: ;
-    width: ;
-
+    position:relative;
+    padding-left:2%;
+    width: 20%;
+    padding-right:2%;
+    min-width: 130px;
+    max-width: 140px;
+    margin: auto;
 }
 
 .card2 {
     position: relative;
-    display: flex;
-    flex-direction: column;
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    background-color: #f8f8f8;
+    padding-top:2%;
 }
 
 .categories {
-
+    font-size: 14px;
+    font: Helvetica;
 }
 
 .title {
-
+    font-size: 18px;
+    font: Helvetica;
 }
 
 .byon {
+    font-size: 14px;
+    font: Helvetica;
+}
 
+.cardpost {
+    position: relative;
+    height: 100%;
+    width: 44%;
+    left: 27%;
+    border: 0px;
+    background-color: #f8f8f8;
+    font-size: 20px;
+    font: Helvetica;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.assinatura {
+    font: Helvetica;
+    font-size: 16px;
+}
+
+.titlepost {
+    font: Helvetica;
+    font-size: 26px;
 }
