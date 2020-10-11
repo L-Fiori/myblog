@@ -1,5 +1,9 @@
 ---
 layout: default
 ---
-{{ content }}
-<p>Postado no dia {{ page.date }} na categoria {{ page.categories }}</p>
+
+<div class="cardpost">
+    <h1 class="titlepost">{{ page.title }}</h1>
+    {{ content }}
+    <p class="assinatura">Postado no dia {{ page.dia }} na categoria {{ page.categories }}</p>
+</div>

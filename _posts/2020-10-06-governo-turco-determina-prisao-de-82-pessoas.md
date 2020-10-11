@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Governo turco determina prisão de 82 pessoas"
+dia: "4 de Outubro de 2020"
 date: 2020-10-04 07:54:37 -0300
 categories: Internacional
+tema: "Internacional"
 byon: By Lucas Fiori on October 4th, 2020
 photo: '/assets/images/turquia.jpg'
 ---

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="container">
+<div class="container2">
     <div class="filter">
         <p class="text-1">Filtrar por tópico:</p>
         <ul>
@@ -12,24 +12,24 @@ layout: default
     </div>
     <div class="posts">
         {% for post in site.posts %}
-            {% if post.categories == Internacional %}
-            <div class="card">
-                <div class="foto">
-                    <img src="{{ post.photo | relative_url }}" width=100% height=100%>
-                </div>
-                <div class="card2">
-                    <div class="categories">
-                        {{ post.categories }}
+            {% if post.tema == "Brasil" %}
+                <div class="card">
+                    <div class="picture">
+                        <img src="{{ post.photo | relative_url }}" width=100% height=100%>
                     </div>
-                    <div class="title">
-                        {{ post.title }}
-                    </div>
-                    <div class="byon">
-                        {{ post.byon }}
+                    <div class="card2">
+                        <div class="categories">
+                            {{ post.categories }}
+                        </div>
+                        <div class="title">
+                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                        </div>
+                        <div class="byon">
+                            {{ post.byon }}
+                        </div>
                     </div>
                 </div>
             {% endif %}
-            </div>
         {% endfor %}
     </div>
 </div>
